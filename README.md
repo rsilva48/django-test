@@ -1,16 +1,20 @@
 # ars-pgsweb
 
-Web para cliente usando Python como backend con el framework Django
+Proyecto de Sitio Web para cliente usando Python como backend con el framework Django
 
-## Configuración de ambienta virtual
+# Configuración de entorno y dependencias
 
-### Instalación de Python 3.12.1 (Windows)
+## Instalación de Python 3.12.1
 
-Descargar la [versión 3.12.1 de Python](https://www.python.org/downloads/release/python-3121/):
+### Windows:
+
+Descargar e instalar la [versión 3.12.1 de Python](https://www.python.org/downloads/release/python-3121/):
 
 - [Windows 64-bit](https://www.python.org/ftp/python/3.12.1/python-3.12.1-amd64.exe)
 
-### Instalación de Python 3.12.1 (Linux):
+**Nota:** Colocar la opción de añadir Python al Path (Variables de entorno) antes de empezar la instalación.
+
+### Linux:
 
 Ejecutar los siguientes comandos:
 
@@ -28,38 +32,42 @@ sudo make altinstall
 python3.12 -m pip install --upgrade pip
 ```
 
-### Creación de entorno virtual Linux
+## Creación de entorno virtual
+
+### Linux:
 
 ```bash
 sudo pip3.12 install virtualenv
 virtualenv venv
 ```
 
-### Creación de entorno virtual Windows
+### Windows:
 
 ```cmd
 python -m venv venv
 ```
 
-### Activación de entorno virtual en Linux
+## Activación de entorno virtual
+
+### Linux:
 
 ```bash
 source venv/bin/activate
 ```
 
-### Activación de entorno virtual en Windows (CMD)
+### Windows (CMD):
 
 ```cmd
 venv\Scripts\activate
 ```
 
-### Activación de entorno virtual en Windows (PowerShell)
+### Windows (PowerShell)
 
 ```powershell
 .\venv\Scripts\Activate
 ```
 
-### Desactivar entorno virtual
+## Desactivación de entorno virtual
 
 ```bash
 deactivate
